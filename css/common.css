@@ -139,10 +139,11 @@ body{
     height: 3px;
     background-color: tomato;
 }
+
 .tab_title a{
     display: block;
     flex: 1;
-    background-color:#ddd;
+    background-color:#eee;
     height: 50px;
     line-height: 50px;
     text-align: center;
@@ -157,6 +158,7 @@ body{
     position: relative;
     height: 130px;
 }
+
 .tab_contents ul{
     position: absolute;
     top: 0;
@@ -164,9 +166,10 @@ body{
     width: 100%;
     height: 100%;
 }
+
 .tab_contents .notice{
     padding: 10px;
-    display: none;
+    /* display: none; */
 }
 
 .tab_contents .notice li a{
@@ -186,7 +189,7 @@ body{
     gap: 20px;
     height: 100%;
     padding: 20px 10px;
-    /* display: none; */
+    display: none;
 }
 
 .tab_contents .gallery li{
@@ -216,7 +219,7 @@ body{
     display: grid;
     grid-template-columns: repeat(2,1fr);
     gap: 10px;
-}
+} 
 
 .link a{
     display: block;
@@ -231,7 +234,6 @@ body{
     background-color: #eee;
 }
 
-/* footer */
 .footer{
     height: 100px;
     background-color: #ddd;
@@ -294,4 +296,4 @@ body{
     height: 40px;
     background-color: #ddd;
     text-align: center;
-}
+} */
